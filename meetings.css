@@ -2,10 +2,10 @@ body{
     background-color: goldenrod;
 }
 #meetings>h3{
-    text-align: center;
     color: blue;
     font-size: large;
     font-style: italic;
+    padding-left:50pt ;
 }
 #meetings>img{
     float: right;
