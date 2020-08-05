@@ -1,69 +1,85 @@
 <!DOCTYPE html>
 
-    <head>
-        
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="nav.css" type="text/css"> 
-        <link rel="stylesheet" href="wellness.css" type="text/css"> 
-    </head>
-    <body>
-        <nav role="navigation">
-            <ul>
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-                <li><a href="">SERVICES</a>
-                <ul class="dropdown">
-                  <li><a href="accommodations.html">ACCOMMODATIONS</a></li>
-                  <li><a href="meetings.html">MEETINGS & CONFERENCES</a></li>
-                  <li><a href="restaurant.html">RESTAURANTS & BAR</a></li>
-                  <li><a href="tour.html">TOUR & TRAVEL</a></li>
-                  <li><a href="wellness.html">WELLNESS CENTRE</a></li>
-                </ul>
-              </li>
-              <li><a href="tour.html">TOUR-SITES</a></li>
-              <li><a href="contacts.html">CONTACTS</a></li>
-            </ul>
-          </nav>
-          <div id="container">
-            <h2>WELLNESS CENTRE</h2>
-            <P>However, you like to relax - poolside, with a massage, manicure or hair styling session, or by sweating it out at the gym - Ole-Sereni has state-of-the-art amenities to make your stay as rejuvenating as possible. Our health club has everything you need to stay in shape and our spa and salon will have you looking your best, while our pool is one of the hotel's best spots for lounging.</P>
-            <div id="health">
-              <h3>HEALTH CLUB</h3>
-              <p>Health Club. Ole-Sereni's health club is open from 6 a.m. to 12 p.m. from Monday to Friday only and gives guests full access to a range of cardio and strength training machines and free weights, all under the supervision of expert trainers who are happy to provide private sessions.</p>
-              <img src="data:image/jpeg;base64,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">
-            </div>
-            <div id="salon">
-              <h3>SALON AND SPA</h3>
-              <p>With our advanced treatment rooms, imported products and highly professional technicians, Ole-Sereni's spa and salon offer some of Nairobi's most sophisticated services. From clarifying facials to deeply relaxing massages, our spa menu offers a full range of treatments, including romantic couple's packages.</p>
+<head>
 
-            </div>
-            <div id="swimming">
-              <h3>SWIMMING POOL</h3>
-              <p>Ole Sereni boasts as the ONLY City Hotel in the World by a National Game Park. It has super luxurious roof pool Nairobi.
-                The atmosphere is relaxed and you get to be in harmony with nature here with the Nairobi National Park view and a drink in hand.
-                Here you can take some really cool Instagram-worthy photos at the edge of the pool with Nairobi National Park view as a backdrop. It is definitely one of the best Nairobi rooftop pool you can find.</p>
-                <br><br>
-            </div>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="nav.css" type="text/css">
+  <link rel="stylesheet" href="wellness.css" type="text/css">
+</head>
+
+<body>
+  <nav role="navigation">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="">SERVICES</a>
+        <ul class="dropdown">
+          <li><a href="accommodations.html">ACCOMMODATIONS</a></li>
+          <li><a href="meetings.html">MEETINGS & CONFERENCES</a></li>
+          <li><a href="restaurant.html">RESTAURANTS & BAR</a></li>
+          <li><a href="tour.html">TOUR & TRAVEL</a></li>
+          <li><a href="wellness.html">WELLNESS CENTRE</a></li>
+        </ul>
+      </li>
+      <li><a href="tour.html">TOUR-SITES</a></li>
+      <li><a href="contacts.html">CONTACTS</a></li>
+    </ul>
+  </nav>
+  <div id="container">
+    <h2>WELLNESS CENTRE</h2>
+    <P>However, you like to relax - poolside, with a massage, manicure or hair styling session, or by sweating it out at
+      the gym - Ole-Sereni has state-of-the-art amenities to make your stay as rejuvenating as possible. Our health club
+      has everything you need to stay in shape and our spa and salon will have you looking your best, while our pool is
+      one of the hotel's best spots for lounging.</P>
+    <div id="health">
+      <h3>HEALTH CLUB</h3>
+      <p>Health Club. Ole-Sereni's health club is open from 6 a.m. to 12 p.m. from Monday to Friday only and gives
+        guests full access to a range of cardio and strength training machines and free weights, all under the
+        supervision of expert trainers who are happy to provide private sessions.</p>
+      <img
+        src="data:image/jpeg;base64,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"
+        height="300px" width="500px">
+    </div>
+    <div id="salon">
+      <h3>SALON AND SPA</h3>
+      <p>With our advanced treatment rooms, imported products and highly professional technicians, Ole-Sereni's spa and
+        salon offer some of Nairobi's most sophisticated services. From clarifying facials to deeply relaxing massages,
+        our spa menu offers a full range of treatments, including romantic couple's packages.</p>
+      <img src="https://files.slack.com/files-pri/T077KKCG6-F018J9GGRS8/image.png" height="300px" width="500px">
+
+    </div>
+    <div id=" swimming">
+      <h3>SWIMMING POOL</h3>
+      <p>Ole Sereni boasts as the ONLY City Hotel in the World by a National Game Park. It has super luxurious roof pool
+        Nairobi.
+        The atmosphere is relaxed and you get to be in harmony with nature here with the Nairobi National Park view and
+        a drink in hand.
+        Here you can take some really cool Instagram-worthy photos at the edge of the pool with Nairobi National Park
+        view as a backdrop. It is definitely one of the best Nairobi rooftop pool you can find.</p>
+      <img src="https://files.slack.com/files-pri/T077KKCG6-F018J9J8E5A/image.png" height="300px" width="500px">
+      <br><br>
+    </div>
 
 
 
 
-          </div>
-        <script src="" async defer></script>
-        <div id="footer">
-          
-                  <ul>
-                 <li><a href="contacts.html">CONTACTS</a></li>
-                 <li><a href="direction.html">DIRECTION</a></li>
-                 <li><a href="https://en-gb.facebook.com/login/">FACEBOOK</a></li>
-                 <li><a href="https://www.instagram.com/accounts/login/?hl=en">INSTAGRAM</a></li>
-                 </ul>
-                
-      
-          </div>
-    </body>
+  </div>
+  <script src="" async defer></script>
+  <div id=" footer">
+
+    <ul>
+      <li><a href="contacts.html">CONTACTS</a></li>
+      <li><a href="direction.html">DIRECTION</a></li>
+      <li><a href="https://en-gb.facebook.com/login/">FACEBOOK</a></li>
+      <li><a href="https://www.instagram.com/accounts/login/?hl=en">INSTAGRAM</a></li>
+    </ul>
+
+
+  </div>
+</body>
+
 </html>
