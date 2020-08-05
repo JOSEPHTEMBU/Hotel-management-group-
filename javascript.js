@@ -17,3 +17,13 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+$(document).ready(function(){
+
+});
+
+function contact(form){
+var name = document.forms["form2"]["name"].value;
+var email = document.forms["form2"]["email"].value;
+var message = document.forms["form2"]["message"].value;
+alert("Hello! " + name + "," + " We have received your message. Thank you for reaching out to us. ");
+};
