@@ -1,3 +1,6 @@
+body{
+    background-color: goldenrod;
+}
 #meetings>h3{
     text-align: center;
     color: blue;
