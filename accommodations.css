@@ -1,13 +1,15 @@
 body {
     background-color: #FFDDE2FF;
 }
+#accommodations>h3 {
 
-#accommodations>h3{
+
     color: blue;
     font-size: large;
     font-style: italic;
     padding-right: 50px;
 }
+
 
 #accommodations>img {
     float: right;
