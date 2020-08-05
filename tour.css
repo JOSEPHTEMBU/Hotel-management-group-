@@ -1,0 +1,17 @@
+#images {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50%;
+}
+
+body {
+    background-color: #FFDDE2FF;
+}
+
+h3 {
+    text-align: center;
+    color: blue;
+    font-size: large;
+    font-style: italic;
+}

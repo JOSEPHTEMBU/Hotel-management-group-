@@ -1,0 +1,54 @@
+body {
+    background-color: #FFDDE2FF;
+}
+
+#accommodations>h3 {
+
+    color: blue;
+    font-size: large;
+    font-style: italic;
+    padding-right: 50px;
+}
+img{
+    border-radius: 9px;
+}
+
+
+/* #accommodations>img {
+    float: left;
+    border-radius: 1%;
+} */
+
+#accommodations {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#accommodations>p {
+    height: 130px;
+}
+
+#accommodations>h2 {
+    font-size: large;
+    font-style: normal;
+    color: blue;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex:35.33%;
+    padding: 5px;
+  }

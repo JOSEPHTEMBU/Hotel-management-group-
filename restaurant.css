@@ -1,0 +1,52 @@
+header {
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+    color: blue;
+    font-size: larger;
+}
+
+.head {
+    float: left;
+    color: blue;
+    font-family: cursive;
+}
+
+showcace h1 {
+    color: #008C76FF;
+    font-family: cursive;
+    text-align: center;
+}
+
+showcace h3 {
+    color: blue;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.category {
+    color: black;
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+}
+
+img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.snack,
+.grill {
+    padding-left: 1rem;
+}
+
+h4 {
+    font-size: 3rem;
+    margin: 3%;
+}
+
+body {
+    background-color: #FFDDE2FF;
+}
