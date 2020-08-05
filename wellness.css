@@ -1,8 +1,13 @@
-h2{
-    color: rgb(231, 135, 8);
+h2 {
+    color: blue;
     text-align: center;
 }
-h3{
+
+h3 {
     text-align: center;
-    color: indianred;
+    color: #008C76FF;
+}
+
+body {
+    background-color: #FFDDE2FF;
 }

@@ -1,26 +1,39 @@
+
 body{
     background-color: goldenrod;
 }
 #meetings>h3{
+
+#meetings>h3 {
+    text-align: center;
+
     color: blue;
     font-size: large;
     font-style: italic;
     padding-left:50pt ;
 }
-#meetings>img{
+
+#meetings>img {
     float: right;
     border-radius: 50%;
 }
-#meetings{
+
+#meetings {
     width: 50%;
     margin: 0 auto;
 }
-#meetings>p{
+
+#meetings>p {
     height: 130px;
 }
-h2{
+
+h2 {
     font-size: large;
     font-style: normal;
-    color: crimson;
+    color: blue;
     text-align: center;
+}
+
+body {
+    background-color: #FFDDE2FF;
 }
