@@ -41,3 +41,8 @@ input[type=submit]:hover {
 body {
   background-color: #FFDDE2FF;
 }
+
+h1 {
+  text-align: center;
+  color: blue;
+}
