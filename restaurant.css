@@ -1,0 +1,43 @@
+body{
+    background-color: #755139ff;
+}
+header{
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+    color: #f1f4ffff;
+    font-size: larger;
+}
+.head{
+    float: left;
+    color: #fff;
+    font-family: cursive;
+}
+showcace h1{
+    color: #cbce91ff;
+    font-family: cursive;
+    text-align: center;
+}
+showcace h3{
+    color: #ea738dff;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.category{
+    color: black;
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+}
+img{
+    width: 70%;
+    border-radius: 50%;
+}
+.snack, .grill{
+    padding-left: 1rem;
+}
+h4{
+    font-size: 3rem;
+    margin: 3%;
+}
