@@ -1,25 +1,35 @@
-body{
-    background-color: goldenrod;
+body {
+    background-color: #FFDDE2FF;
 }
-#accommodations>h3{
-    text-align: center;
+
+#accommodations>h3 {
     color: blue;
     font-size: large;
     font-style: italic;
+    padding-left: 50px;
 }
-#accommodations>img{
+
+#accommodations>img {
     float: right;
     border-radius: 50%;
 }
-#accommodations{
+
+#accommodations {
     width: 50%;
     margin: 0 auto;
 }
-#accommodations>p{
+
+#accommodations>p {
     height: 130px;
 }
-#accommodations>h2{
+
+#accommodations>h2 {
     font-size: large;
     font-style: normal;
-    color: crimson;
+    color: blue;
+}
+
+h2,
+h3 {
+    text-align: center;
 }
