@@ -1,0 +1,29 @@
+
+
+h1,h2{
+  text-align: center;
+}
+h1{
+  color: red;
+}
+h2{
+  color: hotpink;
+}
+#container>img{
+height: 500px;
+  width: 100%;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+

@@ -1,0 +1,9 @@
+#images {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-size: small;
+}
