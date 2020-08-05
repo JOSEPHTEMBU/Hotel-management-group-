@@ -1,0 +1,23 @@
+#meetings>h3{
+    text-align: center;
+    color: blue;
+    font-size: large;
+    font-style: italic;
+}
+#meetings>img{
+    float: right;
+    border-radius: 50%;
+}
+#meetings{
+    width: 50%;
+    margin: 0 auto;
+}
+#meetings>p{
+    height: 130px;
+}
+h2{
+    font-size: large;
+    font-style: normal;
+    color: crimson;
+    text-align: center;
+}
