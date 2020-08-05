@@ -9,12 +9,15 @@ body {
     font-style: italic;
     padding-right: 50px;
 }
-
-
-#accommodations>img {
-    float: right;
-    border-radius: 50%;
+img{
+    border-radius: 9px;
 }
+
+
+/* #accommodations>img {
+    float: left;
+    border-radius: 1%;
+} */
 
 #accommodations {
     width: 50%;
@@ -35,3 +38,17 @@ h2,
 h3 {
     text-align: center;
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex:35.33%;
+    padding: 5px;
+  }
