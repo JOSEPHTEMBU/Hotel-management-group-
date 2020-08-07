@@ -1,202 +1,208 @@
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
 }
 
-.slideshow-container{
-  width: 90%;
-  margin: 0 auto;
+.slideshow-container {
+	width: 90%;
+	margin: 0 auto;
 }
 
-.mySlides{  
-  position: relative;
-  margin: 0 auto;
+.mySlides {
+	position: relative;
+	margin: 0 auto;
 }
 
-.mySlides img{
-  border-radius: 5px;
+.mySlides img {
+	border-radius: 5px;
 }
 
-
-.img-text{
-  font-size: 20px;
-  color: white;
-  width: 40%;
-  position: absolute;
-  text-align: justify;
-  padding: 10px;
-  bottom: 10px;
-  right: 10px;
-  background-color: #008C76FF;
-  border-radius: 5px;
+.img-text {
+	font-size: 20px;
+	color: white;
+	width: 40%;
+	position: absolute;
+	text-align: justify;
+	padding: 10px;
+	bottom: 10px;
+	right: 10px;
+	background-color: #008c76ff;
+	border-radius: 5px;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+	background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {
-    opacity: .4
-  }
+	from {
+		opacity: 0.4;
+	}
 
-  to {
-    opacity: 1
-  }
+	to {
+		opacity: 1;
+	}
 }
 
 @keyframes fade {
-  from {
-    opacity: .4
-  }
+	from {
+		opacity: 0.4;
+	}
 
-  to {
-    opacity: 1
-  }
+	to {
+		opacity: 1;
+	}
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {
-    font-size: 11px
-  }
+	.text {
+		font-size: 11px;
+	}
 }
 
 body {
-  background-color: #FFDDE2FF;
+	background-color: #ffdde2ff;
 }
 
 h1 {
-  color: blue;
-  text-align: center;
+	color: blue;
+	text-align: center;
 }
 
-.founders{
-  display: flex;
-  justify-content: space-evenly;
+.founders {
+	display: flex;
+	justify-content: space-evenly;
 }
 
-
-.founders-card{
-  position: relative;
-  border-radius: 5px;
-  padding: 10px;
-  height: 250px;
-  width: 250px;
-  background-color: #008C76FF;
+.founders-card {
+	position: relative;
+	border-radius: 5px;
+	padding: 10px;
+	height: 250px;
+	width: 250px;
+	background-color: #008c76ff;
 }
 
-.founders-img{
-  margin: 0 auto;
-  text-align: center;
-  margin-bottom: 10px;
+.founders-img {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
-.founders-img img{
-  margin: 0 auto;
-  height: 150px;
-  width: 200px;
-  border-radius: 5px;
-  
-  
+.founders-img img {
+	margin: 0 auto;
+	height: 150px;
+	width: 200px;
+	border-radius: 5px;
 }
 
-.more, .less{
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+.more,
+.less {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
 }
 
-.more button{
-  height: 45px;
-  width: 80px;
-  border-radius: 5px;
-  border: none;
-  background-color: #FFDDE2FF;;
-  color: blue;
-  font-size: 18px; 
-  /* display: none;  */
+.more button {
+	height: 45px;
+	width: 80px;
+	border-radius: 5px;
+	border: none;
+	background-color: #ffdde2ff;
+	color: blue;
+	font-size: 18px;
+	/* display: none;  */
 }
 
-.less button{
-  height: 45px;
-  width: 80px;
-  border-radius: 5px;
-  border: none;
-  background-color: #FFDDE2FF;;
-  color: blue;
-  font-size: 18px;  
+.less button {
+	height: 45px;
+	width: 80px;
+	border-radius: 5px;
+	border: none;
+	background-color: #ffdde2ff;
+	color: blue;
+	font-size: 18px;
 }
 
-#less1, #less2, #less3, #less4{
-  display: none;
+#less1,
+#less2,
+#less3,
+#less4 {
+	display: none;
 }
 
-.name{
-  text-align: center;
-  font-size: 22px;
+.founders button:hover{
+  background-color: brown;
   color: white;
 }
 
-#founder-details1, #founder-details2, #founder-details3, #founder-details4{
-  width: 80%;
-  margin: 0 auto;
-  text-align: justify;
-  display: none;
-  color: white;
+.name {
+	text-align: center;
+	font-size: 22px;
+	color: white;
 }
 
-.show{
-  display: block;
+#founder-details1,
+#founder-details2,
+#founder-details3,
+#founder-details4 {
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
+	display: none;
+	color: white;
 }
 
-.increase{
-  height: 400px
+.show {
+	display: block;
 }
 
-#history{
-  border-radius: 5px;
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 10px;
-  background-color: #008C76FF;
-  color: white;
-  font-size: 18px;
-
+.increase {
+	height: 400px;
 }
 
+#history {
+	border-radius: 5px;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #008c76ff;
+	color: white;
+	font-size: 18px;
+}
