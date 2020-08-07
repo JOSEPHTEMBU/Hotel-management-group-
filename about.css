@@ -116,7 +116,7 @@ h1 {
   border-radius: 5px;
   padding: 10px;
   height: 250px;
-  width: 300px;
+  width: 250px;
   background-color: #008C76FF;
 }
 
@@ -129,8 +129,8 @@ h1 {
 .founders-img img{
   margin: 0 auto;
   height: 150px;
-  width: 150px;
-  border-radius: 50%;
+  width: 200px;
+  border-radius: 5px;
   
   
 }
@@ -146,8 +146,8 @@ h1 {
   width: 80px;
   border-radius: 5px;
   border: none;
-  background-color: red;
-  color: white;
+  background-color: #FFDDE2FF;;
+  color: blue;
   font-size: 18px; 
   /* display: none;  */
 }
@@ -157,12 +157,12 @@ h1 {
   width: 80px;
   border-radius: 5px;
   border: none;
-  background-color: red;
-  color: white;
+  background-color: #FFDDE2FF;;
+  color: blue;
   font-size: 18px;  
 }
 
-#less1, #less2, #less3{
+#less1, #less2, #less3, #less4{
   display: none;
 }
 
@@ -172,11 +172,12 @@ h1 {
   color: white;
 }
 
-#founder-details1, #founder-details2, #founder-details3{
+#founder-details1, #founder-details2, #founder-details3, #founder-details4{
   width: 80%;
   margin: 0 auto;
-  text-align: center;
+  text-align: justify;
   display: none;
+  color: white;
 }
 
 .show{
@@ -185,5 +186,17 @@ h1 {
 
 .increase{
   height: 400px
+}
+
+#history{
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #008C76FF;
+  color: white;
+  font-size: 18px;
+
 }
 
