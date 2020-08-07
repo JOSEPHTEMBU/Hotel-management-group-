@@ -70,4 +70,28 @@ function lessFunction3() {
 	moreButton.style.display = "block";
 }
 
+function moreFunction4() {
+	var detail = document.getElementById("founder-details4");
+	var card = document.getElementById("card4");
+	var lessButton = document.getElementById("less4");
+	var moreButton = document.getElementById("more4");
+
+	lessButton.style.display = "block";
+	detail.style.display = "block";
+	card.style.height = "350px";
+	moreButton.style.display = "none";
+}
+
+function lessFunction4() {
+	var detail = document.getElementById("founder-details4");
+	var card = document.getElementById("card4");
+	var lessButton = document.getElementById("less4");
+	var moreButton = document.getElementById("more4");
+
+	lessButton.style.display = "none";
+	detail.style.display = "none";
+	card.style.height = "250px";
+	moreButton.style.display = "block";
+}
+
 
